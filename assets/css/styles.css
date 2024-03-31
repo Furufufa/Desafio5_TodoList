@@ -1,0 +1,138 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    margin-top: 20px;
+    background-color: #e9f2ef;
+    border: 3px solid black;
+}
+.h1 {
+    margin-bottom: 20px ;
+    padding: 10px;
+    border-bottom: 2px solid rgb(207, 201, 201);
+}
+.d-flex {
+    width: 100%;
+}
+
+.btnBorrar {
+    font-weight: bold;
+    color: red;
+    border-radius: 40%;
+    border-color: gray;
+    border: none;
+}
+
+.contenido {
+    background-color: #e9f2ef;
+    padding: 20px;
+}
+
+#action {
+    margin-top: 20px;
+}
+
+.nueva {
+    margin-top: 25px;
+    margin-left: 15px;
+    justify-content: end;
+}
+table {
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+    background-color: #e9f2ef !important;
+       
+}
+
+.tab {
+    background-color: #e9f2ef;
+}
+#total {
+    padding-left: 15px;
+}
+
+#realizadas {
+   padding-left: 15px;
+}
+
+#identificador {
+    margin: 5px;
+    padding: 10px;
+}
+#totalText {
+    font-weight: bold;
+    margin: 15px;
+}
+
+
+#tareas table {
+    margin-left: auto;
+    margin-right: 0;
+}
+
+
+#tareas table th,
+#tareas table td {
+    text-align: left; 
+    padding: 8px; 
+}
+
+
+#tareas table th {
+    font-weight: bold;
+}
+
+
+#tareas table th:nth-child(1),
+#tareas table td:nth-child(1) {
+    width: 10%; 
+}
+
+#tareas table th:nth-child(2),
+#tareas table td:nth-child(2) {
+    width: 50%; 
+}
+
+#tareas table th:nth-child(3),
+#tareas table td:nth-child(3) {
+    width: 20%; 
+}
+
+#tareas table th:nth-child(4),
+#tareas table td:nth-child(4) {
+    width: 20%; 
+}
+
+
+#tareas table th,
+#tareas table td {
+    width: 25%; 
+    text-align: center; 
+}
+
+
+#tareas table th:nth-child(3),
+#tareas table td:nth-child(3),
+#tareas table th:nth-child(4),
+#tareas table td:nth-child(4) {
+    width: 10%; 
+}
+
+
+
+#tareas table th:nth-child(1),
+#tareas table td:nth-child(1) {
+    padding-right: 20px; 
+}
+
+
+
+
+
+.btn-accion {
+    padding: 0.5rem 0.8rem;
+    font-size: 0.9rem;
+    border-radius: 0.30rem;
+}
